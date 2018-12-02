@@ -1,0 +1,143 @@
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="UTF-8">
+        <script src="multifile.js"></script>
+        <script src="ckeditor/ckeditor.js"></script>
+        <title>Submissão de SIP</title>
+        <SCRIPT language="javascript">
+        
+        function addSupervisor() {
+ 
+        var element = document.createElement("input");
+        element.setAttribute("type", "text");
+        element.setAttribute("name", "sName");
+
+        var element2 = document.createElement("input");
+        element2.setAttribute("type", "text");
+        element2.setAttribute("name", "sEmail");
+
+        var element3 = document.createElement("input");
+        element3.setAttribute("type", "text");
+        element3.setAttribute("name", "sWebpage");
+ 
+        var foo = document.getElementById("supervisor");
+ 
+        foo.innerHTML = foo.innerHTML + '<hr><br/>' + 'Name: ';
+        foo.appendChild(element);
+
+        foo.innerHTML = foo.innerHTML + '<br/>' + 'Email: ';
+        foo.appendChild(element2);
+
+        foo.innerHTML = foo.innerHTML + '<br/>' + 'Webpage: ';
+        foo.appendChild(element3);
+ 
+        }
+        
+        function addWorkteam() {
+
+        var element = document.createElement("input");
+        element.setAttribute("type", "text");
+        element.setAttribute("name", "wName");
+
+        var element2 = document.createElement("input");
+        element2.setAttribute("type", "text");
+        element2.setAttribute("name", "wEmail");
+
+        var element3 = document.createElement("input");
+        element3.setAttribute("type", "text");
+        element3.setAttribute("name", "wWebpage");
+ 
+        var foo = document.getElementById("workteam");
+ 
+        foo.innerHTML = foo.innerHTML + '<hr><br/>' + 'Name: ';
+        foo.appendChild(element);
+
+        foo.innerHTML = foo.innerHTML + '<br/>' + 'Email: ';
+        foo.appendChild(element2);
+
+        foo.innerHTML = foo.innerHTML + '<br/>' + 'Webpage: ';
+        foo.appendChild(element3);
+ 
+        }
+    </SCRIPT>
+    </head>
+    <body>
+        <h3>Submissão de SIP</h3>
+        <form action="sip.php" method="post" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Meta</legend>
+                Keyname: <input type="text" name="keyname"/>
+                <br/>
+                Title: <input type="text" name="title"/>
+                <br/>
+                Subtitle: <input type="text" name="subtitle"/>
+                <br/>
+                Course: <input type="text" name="course"/>
+                <br/>
+                Class: <input type="text" name="class"/>
+                <br/>
+                SDate: <input type="text" name="sdate"/>
+                <br/>
+                EDate: <input type="text" name="edate"/>
+            </fieldset>
+            <fieldset>
+                <legend>Supervisors</legend>
+                Name: <input type="text" name="sName"/>
+                <br/>
+                Email: <input type="text" name="sEmail"/>
+                <br/>
+                Webpage: <input type="text" name="sWebpage"/> 
+                <hr>
+                Name: <input type="text" name="sName2"/>
+                <br/>
+                Email: <input type="text" name="sEmail2"/>
+                <br/>
+                Webpage: <input type="text" name="sWebpage2"/> 
+                <hr>
+                Name: <input type="text" name="sName3"/>
+                <br/>
+                Email: <input type="text" name="sEmail3"/>
+                <br/>
+                Webpage: <input type="text" name="sWebpage3"/> 
+            </fieldset>
+            <fieldset>
+                <legend>Workteam</legend>
+                Name: <input type="text" name="wName"/>
+                <br/>
+                Email: <input type="text" name="wEmail"/>
+                <br/>
+                Webpage: <input type="text" name="wWebpage"/> 
+                <hr>
+                Name: <input type="text" name="wName2"/>
+                <br/>
+                Email: <input type="text" name="wEmail2"/>
+                <br/>
+                Webpage: <input type="text" name="wWebpage2"/> 
+                <hr>
+                Name: <input type="text" name="wName3"/>
+                <br/>
+                Email: <input type="text" name="wEmail3"/>
+                <br/>
+                Webpage: <input type="text" name="wWebpage3"/> 
+            </fieldset>
+            <fieldset>
+                Abstract:<br/>
+                <textarea rows="10" cols="120" name="abstract"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Files</legend>
+                File: <input id="my_file_element" type="file" name="file_1" >
+                <div id="files_list"></div>
+                <script>
+                var multi_selector = new MultiSelector( document.getElementById( 'files_list' ), 20 );
+                multi_selector.addElement( document.getElementById( 'my_file_element' ) );
+                </script>
+            </fieldset>
+            <input type="submit" value="Enviar"/>
+        </form>
+        <script>
+          CKEDITOR.replace( 'abstract' );
+        </script>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+.text { font-family: 'Alegreya Sans SC', sans-serif; color: white; font-size: 34px; padding-left: 10px; padding-top: 10px; padding-bottom: 15px; }
+
+.top { margin-top: 140px; min-height: 400px;}
+
+.textLabel { font-family: 'Alegreya Sans SC', sans-serif; color: black; font-size: 24px; padding-left: 20px; background-color: white; 
+			padding-top: 5px; padding-bottom: 7px; }
+
+.titles { font-family: 'Alegreya Sans SC', sans-serif; }
+
+hr.style-eight { padding: 0; border: none; margin-top: 10px; border-top: medium double #333; color: #333; text-align: center; }
+
+.video-responsive { overflow: hidden; padding-bottom: 56.25%; position: relative; height: 0; }
+
+.video-responsive iframe{ left: 0; top: 0; height: 100%; width: 100%; position: absolute; }
+
+.bar { height: 5px; background-color: #e74c3c; }
+
+.paragraph { font-family: 'Source Sans Pro', sans-serif; font-size: 14px; display: inline; }
+
+h1,h2,h3,h4,h5,h6 { font-family: 'Alegreya Sans SC', sans-serif; }
+
+.tag { font-family: 'Alegreya Sans SC', sans-serif; text-align: center; color: white; letter-spacing: 1px; font-size: 14px; }
+
+a, a:hover, a:link, a:visited, a:active { text-decoration: none; }
+
+.bold { font-weight: bold; display: inline; }
+
+.popover { width: 300px; }

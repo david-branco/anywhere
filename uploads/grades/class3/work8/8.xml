@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE grade SYSTEM "../../grade.dtd">
+<grade>
+  <class id="3">
+    <cname>Programação Imperativa</cname>
+    <academic_year>2013/2014</academic_year>
+    <course>Licenciatura em Ciências da Computação</course>
+    <institution>Universidade do Minho</institution>
+  </class>
+  <teachers>
+    <teacher id="2">
+      <tname>Pedro Rangel Henriques</tname>
+      <tnumber>p1001</tnumber>
+      <temail>prh2@di.uminho.pt</temail>
+    </teacher>
+  </teachers>
+  <work id="8">
+    <wname>Exame</wname>
+    <importance>50</importance>
+    <workteam id="46">
+      <wtname>Grupo 1</wtname>
+      <member id="1">
+        <mname>David Branco</mname>
+        <mnumber>a55878</mnumber>
+        <memail>davidbranco88@gmail.com</memail>
+        <evaluation>10</evaluation>
+      </member>
+    </workteam>
+    <workteam id="47">
+      <wtname>Grupo 2</wtname>
+      <member id="2">
+        <mname>Bruno Araujo</mname>
+        <mnumber>pg26216</mnumber>
+        <memail>brunotiagoaraujo@gmail.com</memail>
+        <evaluation>11</evaluation>
+      </member>
+    </workteam>
+    <workteam id="48">
+      <wtname>Grupo 3</wtname>
+      <member id="3">
+        <mname>Ricardo Silva</mname>
+        <mnumber>a52839</mnumber>
+        <memail>kaiserric@gmail.com</memail>
+        <evaluation>12</evaluation>
+      </member>
+    </workteam>
+    <workteam id="49">
+      <wtname>Grupo 4</wtname>
+      <member id="4">
+        <mname>Nelson Brandão</mname>
+        <mnumber>a50001</mnumber>
+        <memail>nelson@gmail.com</memail>
+        <evaluation>13</evaluation>
+      </member>
+    </workteam>
+    <workteam id="50">
+      <wtname>Grupo 5</wtname>
+      <member id="5">
+        <mname>Ramon Rodrigues</mname>
+        <mnumber>a50002</mnumber>
+        <memail>ramon@gmail.com</memail>
+        <evaluation>12</evaluation>
+      </member>
+    </workteam>
+    <workteam id="51">
+      <wtname>Grupo 6</wtname>
+      <member id="6">
+        <mname>Luis Lima</mname>
+        <mnumber>a50003</mnumber>
+        <memail>luis@gmail.com</memail>
+        <evaluation>11</evaluation>
+      </member>
+    </workteam>
+    <workteam id="52">
+      <wtname>Grupo 7</wtname>
+      <member id="7">
+        <mname>Jorge Lobo Teixeira Lopes</mname>
+        <mnumber>a53898</mnumber>
+        <memail> jorgelobolopes@gmail.com</memail>
+        <evaluation>10</evaluation>
+      </member>
+    </workteam>
+    <workteam id="53">
+      <wtname>Grupo 8</wtname>
+      <member id="8">
+        <mname>Paulo Alexandre Ribeiro Silva</mname>
+        <mnumber>a62144</mnumber>
+        <memail> pauloribeirosilva92@gmail.com</memail>
+        <evaluation>9</evaluation>
+      </member>
+    </workteam>
+    <workteam id="54">
+      <wtname>Grupo 9</wtname>
+      <member id="24">
+        <mname>Daniel José Ferreira Novais</mname>
+        <mnumber>a60001</mnumber>
+        <memail>danielnovais92@gmail.com</memail>
+        <evaluation>15</evaluation>
+      </member>
+    </workteam>
+    <workteam id="55">
+      <wtname>Grupo 10</wtname>
+      <member id="25">
+        <mname>Eduardo José Dias Pessoa</mname>
+        <mnumber>a60002</mnumber>
+        <memail>eduardo.jose.pessoa@gmail.com</memail>
+        <evaluation>16</evaluation>
+      </member>
+    </workteam>
+    <workteam id="56">
+      <wtname>Grupo 11</wtname>
+      <member id="26">
+        <mname>Miguel Angelo Gomes da Costa</mname>
+        <mnumber>a60004</mnumber>
+        <memail>miguel.angelo.cst@gmail.com</memail>
+        <evaluation>14</evaluation>
+      </member>
+    </workteam>
+    <workteam id="57">
+      <wtname>Grupo 12</wtname>
+      <member id="27">
+        <mname>Pedro Sérgio Azevedo</mname>
+        <mnumber>a54065</mnumber>
+        <memail>a54065@alunos.uminho.pt </memail>
+        <evaluation>13</evaluation>
+      </member>
+    </workteam>
+    <workteam id="58">
+      <wtname>Grupo 13</wtname>
+      <member id="28">
+        <mname>Ricardo José Sampaio</mname>
+        <mnumber>a58902</mnumber>
+        <memail>a58902@alunos.uminho.pt</memail>
+        <evaluation>10</evaluation>
+      </member>
+    </workteam>
+    <workteam id="59">
+      <wtname>Grupo 14</wtname>
+      <member id="29">
+        <mname>Tiago Filipe Andrade Brito</mname>
+        <mnumber>a60005</mnumber>
+        <memail> tiago.brito3@gmail.com</memail>
+        <evaluation>7</evaluation>
+      </member>
+    </workteam>
+  </work>
+</grade>

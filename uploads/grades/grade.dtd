@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT grade  (class, teachers, work+) >
+    <!ELEMENT class (cname, academic_year, course, institution) > 
+        <!ATTLIST  class id CDATA #REQUIRED >
+        <!ELEMENT  cname (#PCDATA) >
+        <!ELEMENT  academic_year (#PCDATA) >
+        <!ELEMENT  course (#PCDATA) >
+        <!ELEMENT  institution (#PCDATA) >
+    
+    <!ELEMENT teachers (teacher+) >
+        <!ELEMENT teacher (tname, tnumber, temail)>
+        <!ATTLIST teacher id CDATA #REQUIRED >
+        <!ELEMENT tname (#PCDATA) >
+        <!ELEMENT tnumber (#PCDATA) >
+        <!ELEMENT temail (#PCDATA) >
+
+    <!ELEMENT work (wname, importance, workteam*) >
+        <!ATTLIST work id CDATA #REQUIRED >
+        <!ELEMENT wname (#PCDATA) >
+        <!ELEMENT importance (#PCDATA) >
+        <!ELEMENT workteam (wtname, member*) >
+            <!ATTLIST  workteam id CDATA #REQUIRED >
+            <!ELEMENT  wtname (#PCDATA) >
+            <!ELEMENT member (mname, mnumber, memail, evaluation?)>
+                <!ATTLIST  member id CDATA #REQUIRED >
+                <!ELEMENT  mname (#PCDATA) >
+                <!ELEMENT  mnumber (#PCDATA) >
+                <!ELEMENT  memail (#PCDATA) >
+                <!ELEMENT  evaluation (#PCDATA) >

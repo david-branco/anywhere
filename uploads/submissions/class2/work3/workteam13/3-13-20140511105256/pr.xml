@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sip>
+    <meta>
+        <keyname>Formulário</keyname>
+        <title>Project Record</title>
+        <subtitle>Formulário para submissão de sips</subtitle>
+        <course>MEI</course>
+        <class>Processamento Estruturado de Documentos</class>
+        <sdate>2013-11-04</sdate>
+        <edate>2013-11-08</edate>
+        <supervisors>
+            <supervisor>
+                <name>José Carlos Ramalho</name>
+                <email>jcr@di.uminho.pt</email>
+                <webpage>http://www3.di.uminho.pt/~jcr/</webpage>
+            </supervisor>
+        </supervisors>
+        <workteam>
+            <member>
+                <name>Bruno Tiago Abreu Araújo</name>
+                <id>pg26126</id>
+                <email>brunotiagoaraujo@gmail.com</email>
+            </member>
+            <member>
+                <name>David Luís Moniz Branco</name>
+                <id>a55878</id>
+                <email>davidbranco88@gmail.com</email>
+            </member>
+        </workteam>
+    </meta>
+    <abstract>
+        <p>
+            O trabalho proposto a realizar consistia em criar um formulário em <acr><abv>HTML</abv><desc>HyperText Markup Language</desc>></acr> que permitisse o envio dos sips para ser posteriormente tratados em <acr><abv>PHP</abv><desc>PHP: Hypertext Preprocessor</desc>></acr>. 
+            Era suposto que o formulário permitisse a inserção de vários ficheiros, para isso foi usado <i>JavaScript</i> que assim permite mais facilmente adicionar ficheiros de uma forma dinâmica sem que seja necessário à partida definir um limite de ficheiros a enviar.
+        </p>
+        <p>
+            No abstract foi também inserido uma caixa de <i>text editor</i> que permite formatar o texto de uma forma mais intuitiva, feita também em <i>JavaScript</i>. 
+            Esta <i>text editor</i> permite seleccionar texto e pôr a negrito, sublinhado e itálico. 
+            Permite também criar texto sobre a forma de tópicos, nomeadamente <acr><abv>li's</abv><desc>list items</desc>></acr>, e também criar texto com numeração no início das linhas para melhor organização do abstract. 
+            A biblioteca usada para esta <i>text editor</i> chama-se ckEditor e tem milhares de possibilidades para criar a barra de ferramentas, o exemplo usado neste TP foi o mais minimalista possível porque a intenção era apenas mostrar as potencialidades que se pode adicionar uma <i>text area</i> em <acr><abv>HTML</abv><desc>HyperText Markup Language</desc>></acr>. 
+            Esta biblioteca encapsula as tags <acr><abv>HTML</abv><desc>HyperText Markup Language</desc>></acr> para os negritos, itálico, sublinhado e etc, o que facilita a inserção numa base de dados porque a informação segue em formato facilmente guardado, e permite também, ser posteriormente carregada mantendo todas as formatações inseridas pelo utilizador.
+        </p>
+    </abstract>
+    <files>
+        <file path="pr.html" format="HTML"> Manifesto</file>
+        <file path="formulario.html" format="HTML">Formulário para a submissão de um sip</file>
+        <file path="sip.php" format="PHP">PHP que trata o formulário do sip</file>
+    </files>
+</sip>

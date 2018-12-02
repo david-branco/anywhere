@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT sip  (meta, abstract, files) >
+
+<!ELEMENT  meta (keyname, title, subtitle?, course, class, sdate, edate?, supervisors, workteam) >
+
+<!ELEMENT  keyname (#PCDATA) >
+<!ELEMENT  title (#PCDATA) >
+<!ELEMENT  subtitle (#PCDATA) >
+<!ELEMENT  course (#PCDATA) >
+<!ELEMENT  class (#PCDATA) >
+<!ELEMENT  sdate (#PCDATA) >
+<!ELEMENT  edate (#PCDATA) >
+
+<!ELEMENT  supervisors (supervisor)+ >
+<!ELEMENT  supervisor (name, email, webpage?) >
+
+<!ELEMENT  name (#PCDATA) >
+<!ELEMENT  email (#PCDATA) >
+<!ELEMENT  webpage (#PCDATA) >
+
+<!ELEMENT  workteam (member)+ >
+<!ELEMENT  member (name, id, email, webpage?, photo?) >
+<!ELEMENT  id (#PCDATA) >
+<!ELEMENT  photo (#PCDATA) >
+
+<!ELEMENT  abstract (p) >
+<!ELEMENT  p (#PCDATA|i|u|b|acr|xref)* >
+<!ELEMENT  i (#PCDATA|u|b)* >
+<!ELEMENT  u (#PCDATA|i|b)* >
+<!ELEMENT  b (#PCDATA|i|u)* >
+<!ELEMENT  acr (abv, desc) >
+<!ELEMENT  abv (#PCDATA) >
+<!ELEMENT  desc (#PCDATA) >
+<!ELEMENT  xref (#PCDATA) >
+<!ATTLIST  xref
+            uri CDATA #REQUIRED >
+            
+<!ELEMENT  files (file)+ > 
+<!ELEMENT  file (#PCDATA) >
+<!ATTLIST  file
+            path CDATA #REQUIRED 
+            format CDATA #IMPLIED
+            checksum CDATA #IMPLIED > 
+             
