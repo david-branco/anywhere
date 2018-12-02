@@ -8,7 +8,7 @@ This project consists in the development of an information system responsible fo
 ![Homepage](https://raw.githubusercontent.com/david-branco/anywhere/master/screenshots/evento1.png)<br>
 
 [More Screenshots](https://github.com/david-branco/anywhere/tree/master/screenshots)<br>
-[Database Model](https://github.com/david-branco/anywhere/tree/master/screenshots/bd.png)
+[Database Model](https://raw.githubusercontent.com/david-branco/anywhere/master/screenshots/bd.png)
 
 The system has among its main functionalities:
 - Responsive Web interface to the various usual formats;
@@ -82,7 +82,7 @@ Este projecto consiste no desenvolvimento de um sistema de informação respons�
 ![Homepage](https://raw.githubusercontent.com/david-branco/anywhere/master/screenshots/evento1.png)<br>
 
 [Mais Screenshots](https://github.com/david-branco/anywhere/tree/master/screenshots)<br>
-[Modelo Base de Dados](https://github.com/david-branco/anywhere/tree/master/screenshots/bd.png)
+[Modelo Base de Dados](https://raw.githubusercontent.com/david-branco/anywhere/master/screenshots/bd.png)
 
 O sistema possui entre as suas funcionalidades principais:
 - Interface Web responsive para os vários formatos usuais;
