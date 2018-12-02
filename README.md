@@ -5,10 +5,10 @@ This project consists in the development of an information system responsible fo
 
 *Used Technologies: PHP, CodeIgniter, MVC, PERL, Ruby, C, MySQL, JavaScript, JQuery, HTML, XML, CSS, Bootstrap, JSON, DSL, phpMyAdmin, NetBeans, GitHub, Trello, LaTeX, Texmaker, among others.*
 
-![Homepage](https://raw.githubusercontent.com/david-branco/anywhere/master/screenshots/frontpage.png)<br>
+![Homepage](https://raw.githubusercontent.com/david-branco/anywhere/master/screenshots/evento1.png)<br>
 
-[More Screenshots](https://raw.githubusercontent.com/david-branco/anywhere/master/screenshots/)<br>
-[Database Model](https://raw.githubusercontent.com/david-branco/anywhere/screenshots/bd.png)
+[More Screenshots](https://github.com/david-branco/anywhere/tree/master/screenshots)<br>
+[Database Model](https://github.com/david-branco/anywhere/tree/master/screenshotsbd.png)
 
 The system has among its main functionalities:
 - Responsive Web interface to the various usual formats;
@@ -79,10 +79,10 @@ Este projecto consiste no desenvolvimento de um sistema de informação respons�
 
 *Tecnologias Utilizadas: PHP, CodeIgniter, MVC, PERL, Ruby, C, MySQL, JavaScript, JQuery, HTML, XML, CSS, Bootstrap, JSON, DSL, phpMyAdmin, NetBeans, GitHub, Trello, LaTeX, Texmaker, entre outras.*
 
-![Homepage](https://raw.githubusercontent.com/david-branco/anywhere/master/screenshots/frontpage.png)<br>
+![Homepage](https://raw.githubusercontent.com/david-branco/anywhere/master/screenshots/evento1.png)<br>
 
-[Mais Screenshots](https://raw.githubusercontent.com/david-branco/anywhere/master/screenshots/)<br>
-[Modelo Base de Dados](https://raw.githubusercontent.com/david-branco/anywhere/screenshots/bd.png)
+[Mais Screenshots](https://github.com/david-branco/anywhere/tree/master/screenshots)<br>
+[Modelo Base de Dados](https://github.com/david-branco/anywhere/tree/master/screenshots/bd.png)
 
 O sistema possui entre as suas funcionalidades principais:
 - Interface Web responsive para os vários formatos usuais;
