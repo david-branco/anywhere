@@ -8,7 +8,7 @@ This project consists in the development of an information system responsible fo
 ![Homepage](https://raw.githubusercontent.com/david-branco/anywhere/master/screenshots/evento1.png)<br>
 
 [More Screenshots](https://github.com/david-branco/anywhere/tree/master/screenshots)<br>
-[Database Model](https://github.com/david-branco/anywhere/tree/master/screenshotsbd.png)
+[Database Model](https://github.com/david-branco/anywhere/tree/master/screenshots/bd.png)
 
 The system has among its main functionalities:
 - Responsive Web interface to the various usual formats;
