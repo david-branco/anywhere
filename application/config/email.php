@@ -16,7 +16,7 @@ $config['smtp_port'] = '465';
  * SMTP username and password.
  */
 $config['smtp_user'] = 'el2014pi@gmail.com';
-$config['smtp_pass'] = 'el2014piel2014pi';
+$config['smtp_pass'] = '**************';
 
 
 /*
